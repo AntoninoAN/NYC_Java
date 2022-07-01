@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+        <TextView
+            android:id="@+id/school_details_dbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+        <TextView
+            android:id="@+id/school_details_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+        <TextView
+            android:id="@+id/school_details_sat_takers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+        <TextView
+            android:id="@+id/school_details_sat_reading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+        <TextView
+            android:id="@+id/school_details_sat_math"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+        <TextView
+            android:id="@+id/school_details_sat_writing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="asdfghjkl"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
